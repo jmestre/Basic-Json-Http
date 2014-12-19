@@ -1,0 +1,33 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_detail"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:id="@+id/image"
+        android:src="@android:drawable/progress_indeterminate_horizontal"/>
+
+    <TextView
+        style="?android:attr/textAppearanceLarge" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textIsSelectable="true"
+        tools:context=".ItemDetailFragment"
+        android:id="@+id/nombre"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:padding="16dp"
+        android:id="@+id/productos"
+        android:gravity="center"/>
+
+</LinearLayout>
